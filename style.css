@@ -3,15 +3,29 @@ h1 {
     color: steelblue;
 }
 
-div {
+.flex-container {
     width: 500px;
     height: 500px;
     background: lightblue;
     margin: auto;
+    display: flex;
+    flex-direction: column-reverse;
+    flex-direction: row-reverse;
+    justify-content: flex-start;
+}
 
+.flex-item {
+    background: tomato;
+    color: #fff;
+    width: 100px;
+    height: 100px;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.flex-item:nth-child(odd) {  /* Selecciona elementos impares */
+    background: teal;
 }
 
 footer {
