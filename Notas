@@ -1,0 +1,16 @@
+Ejes, propiedades y sus valores que se crean cuando al flex-container le
+damos el valor de flex a su propiedad display. 
+    display: flex;
+
+    Ejes:
+    main-axis - Horizontal por defecto
+    cross-axis - Vertical por defecto
+
+    Propiedades:
+    flex-direction: row;          -  Por defecto
+    justify-content: flex-start;  -  Por defecto
+    align-item: strech;           -  Por defecto
+
+flex-direction: row (default) | row-reverse | column | column-reverse
+
+

@@ -9,24 +9,23 @@ h1 {
     background: lightblue;
     margin: auto;
     display: flex;
-    flex-direction: column-reverse;
-    flex-direction: row-reverse;
-    justify-content: flex-start;
+    flex-direction: row;
+    justify-content: space-evenly;
+
 }
 
 .flex-item {
     background: tomato;
-    color: #fff;
-    width: 100px;
-    height: 100px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    color: #fff;  
 }
 
 .flex-item:nth-child(odd) {  /* Selecciona elementos impares */
     background: teal;
 }
+
+/* .flex-item:nth-child(2) {
+    height: 200px;
+} */
 
 footer {
     padding-top: 3em;
