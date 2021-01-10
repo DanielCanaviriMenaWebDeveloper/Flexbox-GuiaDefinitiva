@@ -13,4 +13,4 @@ damos el valor de flex a su propiedad display.
 
 flex-direction: row (default) | row-reverse | column | column-reverse
 
-
+Creando un juego con flex-box
